@@ -9,4 +9,7 @@ import { B } from "./B";
 import { A } from "./A";
  */
 
+/**
+ * It doesn't matter in which order we export (A,B or B,A), only the order of the import causes the error
+ */
 export { A, B };
